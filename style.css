@@ -39,6 +39,13 @@ body{
 }
 
 #irPara li{
-    display: inline;    
+    display: inline;
+    text-decoration: none;    
+    
+}
+
+#irPara li a{
+    
+    text-decoration: none;    
     
 }
