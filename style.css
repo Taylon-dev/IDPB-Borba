@@ -1,5 +1,7 @@
 body{
     background-color: beige;
+    text-align: center;
+  
 }
 
 #logo{
@@ -18,11 +20,6 @@ body{
     
     height: 50px;
     position: relative;
-    
-    
-    
- 
-
     
 }
 
@@ -48,4 +45,12 @@ body{
     
     text-decoration: none;    
     
+}
+
+#sobre{
+
+    width: 500px;
+    margin: auto;
+
+
 }
