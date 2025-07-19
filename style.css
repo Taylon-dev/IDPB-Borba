@@ -54,3 +54,7 @@ body{
 
 
 }
+
+#programacao ul li{
+    list-style-type: none;
+}
