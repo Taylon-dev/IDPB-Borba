@@ -73,4 +73,13 @@ body{
     margin: auto; 
     display: flex;
     overflow:hidden;
+    
+}
+
+#todasImagens{
+    transition: 2s;
+}
+
+#todasImagens:hover{
+    transform: translateX(-600px);
 }
