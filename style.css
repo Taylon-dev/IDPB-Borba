@@ -1,6 +1,9 @@
 body{
     background-color: beige;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   
 }
 
@@ -25,7 +28,7 @@ body{
 
 #irPara{  
 
-    position: fixed;
+    
     list-style: none;
     padding: 0;
     position: absolute; 
@@ -33,17 +36,21 @@ body{
     transform: translateX(-50%);
     
     
+    
 }
 
 #irPara li{
     display: inline;
-    text-decoration: none;    
+    text-decoration: none;
+       
     
 }
 
 #irPara li a{
     
-    text-decoration: none;    
+    text-decoration: none;  
+    font-weight: 700;  
+    color: black;
     
 }
 
@@ -57,4 +64,13 @@ body{
 
 #programacao ul li{
     list-style-type: none;
+}
+
+#slider{
+    border: 1px solid blue; 
+    height: 600px; 
+    width: 600px; 
+    margin: auto; 
+    display: flex;
+    overflow:hidden;
 }
