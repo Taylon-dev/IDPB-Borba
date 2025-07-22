@@ -88,9 +88,18 @@ body{
 .imgSlide{
     height: 600px; 
     width: 600px;
-    transition: 2s;
+    animation-name: slideR;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
-.imgSlide:hover{
-    transform: translateX(-600px);
+@keyframes slideR{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-1800px);
+    }
 }
+
