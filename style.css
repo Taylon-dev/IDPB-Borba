@@ -70,6 +70,23 @@ body{
     border: 1px solid blue; 
     display: flex;
     overflow:hidden;
+    height: 600px;
+    position: relative;
+    
+    
+}
+
+#radios{
+    border: 1px solid green;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);   
+    
+}
+
+.radio{
+    margin: 10px;
     
 }
 
@@ -81,6 +98,11 @@ body{
     border: 1px solid red;
     overflow:hidden;
     display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    
 
     
 }
@@ -103,7 +125,4 @@ body{
     }
 }
 
-#radios{
-    border: 1px solid green;
-    
-}
+
