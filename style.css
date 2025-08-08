@@ -110,13 +110,19 @@ body{
 .imgSlide{
     height: 600px; 
     width: 600px;
+    /*
     animation-name: slideR;
     animation-duration: 20s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 
-@keyframes slideR{
+.animar1{
+    animation: mover1 1s forwards;
+
+}
+
+@keyframes mover1{
     0%{
         transform: translateX(0);
     }
